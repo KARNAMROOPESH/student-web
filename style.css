@@ -1,0 +1,70 @@
+h1{color:rebeccapurple;
+  margin-left: 650px;
+  }
+p{color:royalblue}
+h2{color: rebeccapurple}
+h3{color: rebeccapurple}
+img{color:chocolate;}
+.name {
+    display:flex;
+    justify-content: space-between;
+    font-family: monospace;
+}
+body{
+    background:linear-gradient(45deg,cornsilk 30%,crimson 190%);
+    font-family: monospace;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.aboutme {
+    margin-top: 12px;
+    padding-bottom: 5px;
+}
+
+a:link{
+    color:rebeccapurple
+}
+a:visited{
+    color:palevioletred;
+}
+.grid {
+     display:flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     font-family: monospace;
+}
+.img{
+    position: relative;
+}
+.img p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.img:hover p{
+    opacity: 0.9;
+}
+.social {
+     display: flex;
+     justify-content: space-evenly;
+     font-family: monospace;
+}
+p,h2,h3,h1{
+    text-align: center;
+    font-family: monospace;
+}
+.site-description{
+      display: flex;
+      flex-direction: column;
+      justify-content: first baseline;
+      font-family: monospace;
+}
+.about{
+       margin-left: 250px;
+       margin-right: 250px;
+}
